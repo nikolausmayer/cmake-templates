@@ -1,0 +1,20 @@
+<package>
+
+  <description brief="MyProjectDescription">
+    This project does something.
+  </description>
+
+  <author>Your Name</author>
+
+  <review status="unreviewed" notes=""/>
+
+  <depend package="sensor_msgs"/>
+  <depend package="roscpp"/>
+  <!-- Required packages go here, e.g.:
+    <depend package="cv_bridge"/>
+    <depend package="dynamic_reconfigure"/>
+    <depend package="tf"/>
+    <depend package="roslib"/>
+  -->
+
+</package> 
