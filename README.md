@@ -16,7 +16,10 @@ CMake is a great tool, but using it can get complicated when a code project uses
    This project can be compiled using `rosmake`. Tested with ROS Indigo.
 
 *  **CMake + Boost + CUDA + ROS**
-   Sometimes, you need it all. Each of Boost, CUDA and ROS need special attention when it comes to CMake. This setup combines all of them, so now you can `rosmake` your GPU projects.
+   Sometimes, you need it all. Each of Boost, CUDA and ROS need special attention when it comes to CMake. This setup combines all of them, so now you can `rosmake` your GPU projects. Tested with ROS Indigo
+
+*  **CMake + ROS (catkin)**
+   This project can be compiled using `catkin_make` and showcases retrieving parameters from a ROS launchfile. Tested with ROS Kinetic.
 
 
 
@@ -35,6 +38,7 @@ CMake is a great tool, but using it can get complicated when a code project uses
    cmake ..
    make -j && make install
    ```
-   For the ROS templates, `rosmake` can be used instead.
+   For the ROS Indigo templates, `rosmake` can be used instead.
+   For the ROS Kinetic templates, `catkin_make` can be used instead.
 
 

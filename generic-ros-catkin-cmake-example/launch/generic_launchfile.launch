@@ -1,0 +1,11 @@
+<launch>
+  <node pkg="generic_package"
+        type="generic_node"
+        name="my_generic_node_from_generic_package"
+        output="screen"
+        clear_params="true"
+  >
+    <param name="generic_parameter" type="int" value="1337"/>
+  </node>
+</launch>
+
