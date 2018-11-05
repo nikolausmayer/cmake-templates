@@ -1,4 +1,4 @@
-generic-ros-cmake-example
+generic-ros-catkin-cmake-example
 ====================================
 
- A generic ROS+CMake skeleton for C++ 
+ A generic ROS+Catkin skeleton for C++ 
