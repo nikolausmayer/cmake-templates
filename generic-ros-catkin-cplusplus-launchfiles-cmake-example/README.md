@@ -1,4 +1,4 @@
-generic-ros-catkin-cmake-example
-====================================
+generic-ros-catkin-cplusplus-launchfiles-cmake-example
+======================================================
 
  A generic ROS+Catkin+launchfiles skeleton for C++ 

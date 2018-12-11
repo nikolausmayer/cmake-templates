@@ -4,7 +4,6 @@ project(generic_package)
 find_package(catkin REQUIRED COMPONENTS
   roscpp
   roslib
-  std_msgs
 )
 
 set(CMAKE_CXX_FLAGS "-W -Wall -Wextra -Wpedantic -std=c++11")
@@ -15,7 +14,6 @@ catkin_package(
   CATKIN_DEPENDS 
   roscpp 
   roslib 
-  std_msgs
 )
 
 include_directories(

@@ -1,6 +1,6 @@
 <launch>
   <node pkg="generic_package"
-        type="generic_node"
+        type="generic_node.py"
         name="my_generic_node_from_generic_package"
         output="screen"
         clear_params="true"
