@@ -1,4 +1,4 @@
-generic-ros-catkin-cplusplus-services-cmake-example
+generic-ros-catkin-cplusplus-messages-cmake-example
 ===================================================
 
- A generic ROS+Catkin skeleton for C++, with user-defined ROS services
+ A generic ROS+Catkin skeleton for C++, with user-defined ROS messages
