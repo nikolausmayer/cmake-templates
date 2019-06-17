@@ -1,0 +1,8 @@
+## "Goal" part
+string generic_action_goal_parameter
+---
+## "Result" part
+string generic_action_result_parameter
+---
+## "Feedback" part
+int32 generic_action_feedback_parameter
