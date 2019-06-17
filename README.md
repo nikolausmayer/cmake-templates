@@ -1,4 +1,4 @@
-# cmake-templates
+# CMake Project Templates
 
 CMake is a great tool, but using it can get complicated when a code project uses or even combines certain frameworks. This repository contains a collection of barebone CMake project templates for various specific setups:
 
@@ -18,8 +18,30 @@ CMake is a great tool, but using it can get complicated when a code project uses
 *  **CMake + Boost + CUDA + ROS**
    Sometimes, you need it all. Each of Boost, CUDA and ROS need special attention when it comes to CMake. This setup combines all of them, so now you can `rosmake` your GPU projects. Tested with ROS Indigo
 
-*  **CMake + ROS (catkin)**
-   This project can be compiled using `catkin_make` and showcases retrieving parameters from a ROS launchfile. Tested with ROS Kinetic.
+
+# CMake Project Template for *ROS Kinetic*
+
+* **generic-ros-catkin-cplusplus-cmake-example**<br/>
+  A barebones C++ ROS package template
+
+* **generic-ros-catkin-cplusplus-actions-cmake-example**<br/>
+  Using custom ROS actions
+
+* **generic-ros-catkin-cplusplus-launchfiles-cmake-example**<br/>
+  Using custom launchfiles for your project
+
+* **generic-ros-catkin-cplusplus-messages-cmake-example**<br/>
+  Using custom ROS messages
+
+* **generic-ros-catkin-cplusplus-services-cmake-example**<br/>
+  Using custom ROS services
+
+* **generic-ros-catkin-python-cmake-example**<br/>
+  A barebones Python ROS package template
+
+* **generic-ros-catkin-python-launchfiles-cmake-example**<br/>
+  Using custom launchfiles
+
 
 
 
