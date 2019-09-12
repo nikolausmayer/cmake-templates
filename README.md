@@ -36,6 +36,9 @@ CMake is a great tool, but using it can get complicated when a code project uses
 * **generic-ros-catkin-cplusplus-services-cmake-example**<br/>
   Using custom ROS services
 
+* **generic-ros-catkin-cplusplus-dynamicreconfigure-cmake-example**<br/>
+  Using ROS dynamic-reconfigure
+
 * **generic-ros-catkin-python-cmake-example**<br/>
   A barebones Python ROS package template
 
